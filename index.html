@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esses pokemons não estão bem não Ach Ketchum</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="img/pokeball.icon" type="image/x-icon">
+    <script src="main.js"></script>
+</head>
+
+<body onload="carregar()">
+
+    <header>
+       <h1>Qual é esse Pokémon?</h1>
+    </header>
+
+    <section>
+        <div class="imagemEscura">
+            <div id="imagemEscuras">
+                <img src="./img/sombra/elc.png" draggable="true" alt="pokemon" ondragstart="drag(event)" id="drag"
+                    width="400px" height="300px">
+            </div>
+            <div id="imagemEscura" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+
+
+        <div class="pokemon">
+
+            <div class="divPoke" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img src="./img/poke1.png" draggable="true" ondragstart="drag(event)" id="drag1" width="100px">
+            </div>
+
+            <div class="divPoke" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img src="./img/poke2.png" draggable="true" ondragstart="drag(event)" id="drag2" width="100px">
+            </div>
+
+            <div class="divPoke" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img src="./img/poke3.png" draggable="true" ondragstart="drag(event)" id="drag3" width="100px">
+            </div>
+
+            <div class="divPoke" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img src="./img/poke4.png" draggable="true" ondragstart="drag(event)" id="drag4" width="100px">
+            </div>
+
+            <div class="divPoke" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img src="./img/poke5.png" draggable="true" ondragstart="drag(event)" id="drag5" width="100px">
+            </div>
+
+            <div class="divPoke" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img src="./img/poke6.png" draggable="true" ondragstart="drag(event)" id="drag6" width="100px">
+            </div>
+
+            <div class="divPoke" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img src="./img/poke7.png" draggable="true" ondragstart="drag(event)" id="drag7" width="100px">
+            </div>
+
+            <div class="divPoke" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img src="./img/poke8.png" draggable="true" ondragstart="drag(event)" id="drag8" width="100px">
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <h1>Integrantes:</h1>
+        <h2>-Erick Maciel</h2>
+        <h2>-Pedro Vieira</h2>
+        <h2>-Rafael Vaz</h2>
+    </footer>
+
+</body>
+
+</html>
